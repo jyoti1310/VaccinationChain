@@ -186,7 +186,7 @@ func (t *SimpleChaincode) addNewChildInfo(stub shim.ChaincodeStubInterface, args
 	}
 
 	//input sanitation
-	fmt.Println("- start adding new Child Info")
+	fmt.Println("- start adding new Child Info-new")
 	
 	NewChildInfo := ChildDetails{}
 	NewChildInfo.BirthCertID = args[0]
